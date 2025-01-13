@@ -1,0 +1,26 @@
+{
+  "name": "tabby-speakshell",
+  "keywords": [
+    "shell",
+    "bash",
+    "natural-language"
+  ],
+  "scripts": {
+    "start": "serve src/frontend & node src/server.js"
+  },
+  "type": "module",
+  "version": "1.0.0",
+  "description": "NLP to commands shell",
+  "main": "index.js",
+  "repository": "git@github.com:shambu2k/tabby-speakshell.git",
+  "author": "Sidharth Shambu, U Madhu Sudhanan",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "dependencies": {
+    "@themaximalist/llm.js": "^0.7.1",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}

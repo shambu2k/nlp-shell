@@ -1,0 +1,47 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #1e1e1e;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#terminal {
+    width: 80%;
+    height: 80%;
+    border: 2px solid #00ff00;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#output {
+    flex-grow: 1;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#input-area {
+    display: flex;
+    align-items: center;
+}
+
+#prompt {
+    color: #00ff00;
+    margin-right: 10px;
+}
+
+#user-input {
+    background: none;
+    border: none;
+    color: #00ff00;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    caret-color: #00ff00;
+}
