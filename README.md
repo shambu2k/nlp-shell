@@ -2,7 +2,7 @@
 A brief overview of what the project does.
 A powerful Zsh plugin that transforms natural language commands into executable bash commands. Simply describe what you want to do in plain English, and znlp will convert it into the corresponding shell command. Perfect for those moments when you can't remember the exact syntax or want a more intuitive way to interact with your terminal.
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Test Status](https://github.com/shambu2k/znlp/actions/workflows/tests.yml/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
