@@ -1,0 +1,14 @@
+{
+  "spec_dir": "tests",
+  "spec_files": [
+    "*.test.js"
+  ],
+  "helpers": [
+    "tests/helpers/**/*.?(m)js"
+  ],
+  "env": {
+    "stopSpecOnExpectationFailure": false,
+    "random": true,
+    "forbidDuplicateNames": true
+  }
+}

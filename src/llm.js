@@ -1,12 +1,5 @@
 import LLM from "@themaximalist/llm.js";
-
-const cleanFormattedLlmCommandOutput = (code) => {
-  return code
-    .replace(/```/g, "")
-    .replace(/bash/g, "")
-    .replace(/\n/g, "")
-    .trim();
-};
+import { cleanFormattedLlmCommandOutput } from "./util.js";
 
 export const getCommand = async (input, osType) => {
   const llm = new LLM();

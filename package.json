@@ -6,7 +6,7 @@
     "natural-language"
   ],
   "scripts": {
-    "build-plugin": "cp src/znlp.plugin.zsh dist/znlp.plugin.zsh"
+    "test": "jasmine --config=jasmine.json"
   },
   "type": "module",
   "version": "1.0.0",
@@ -16,7 +16,7 @@
   "author": "Sidharth Shambu, U Madhu Sudhanan",
   "license": "MIT",
   "devDependencies": {
-    "serve": "^14.2.4"
+    "jasmine": "^5.5.0"
   },
   "dependencies": {
     "@themaximalist/llm.js": "^0.7.1"
