@@ -1,6 +1,6 @@
 import { getCommand } from '../src/llm.js';
 
-describe('LLM functionality', () => {
+describe('LLM command generation', () => {
   it('should generate a command based on input and osType', async () => {
     const input = "list files";
     const osType = "Linux";
