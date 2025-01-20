@@ -20,6 +20,10 @@ jobs:
           cache: 'yarn'
       - name: Install Yarn
         run: npm install -g yarn
+      - name: Install Ollama
+        run: curl -fsSL https://ollama.com/install.sh | sh
+      - name: Run Ollama
+        run: ollama pull "qwen2.5-coder:1.5b" && ollama serve & sleep 5    # wait for the Ollama server to be ready
       - name: Install dependencies
         run: yarn install
       - name: Run tests
