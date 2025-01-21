@@ -5,6 +5,11 @@ Works fully offline with Ollama!
 ![Test Status](https://github.com/shambu2k/znlp/actions/workflows/tests.yml/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+[![Last Commit](https://img.shields.io/github/last-commit/shambu2k/znlp)](https://github.com/shambu2k/znlp/commits/main/)
+[![Open Issues](https://img.shields.io/github/issues/shambu2k/znlp)](https://github.com/shambu2k/znlp/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/shambu2k/znlp)](https://github.com/shambu2k/znlp/pulls)
+![Mac OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 <!-- ## Table of Contents
 - [Installation Instructions](#installation-instructions)
