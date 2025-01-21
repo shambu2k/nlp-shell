@@ -6,5 +6,5 @@ describe('LLM command generation', () => {
     const osType = "Linux";
     const command = await getCommand(input, osType);
     expect(command).toBe("ls");
-  });
+  }, 15000);
 });
