@@ -30,7 +30,7 @@ ollama pull qwen2.5-coder:1.5b
 ### Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/shambu2k/znlp.git
+git clone --depth 1 -- https://github.com/shambu2k/znlp.git
 ```
 
 2. Navigate to the project directory:
@@ -43,10 +43,10 @@ cd znlp
 yarn install
 ```
 
-### Zsh Integration
-Add the plugin to your `.zshrc`:
+4. Zsh Integration
+Add the plugin to your `.zshrc` by adding below line:
 ```bash
-plugins=(... znlp)
+source /path-to-cloned-znlp/src/znlp.plugin.zsh
 ```
 
 ## Usage
