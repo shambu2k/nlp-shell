@@ -1,11 +1,12 @@
 # znlp
 A powerful Zsh plugin that transforms natural language commands into executable bash commands. Simply describe what you want to do in plain English, and znlp will convert it into the corresponding shell command. Perfect for those moments when you can't remember the exact syntax or want a more intuitive way to interact with your terminal.
+Works fully offline with Ollama!
 
 ![Test Status](https://github.com/shambu2k/znlp/actions/workflows/tests.yml/badge.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
-## Table of Contents
+<!-- ## Table of Contents
 - [Installation Instructions](#installation-instructions)
 - [Usage](#usage)
 - [Features](#features)
@@ -13,7 +14,7 @@ A powerful Zsh plugin that transforms natural language commands into executable 
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
-- [Future Plans](#future-plans)
+- [Future Plans](#future-plans) -->
 
 ## Installation Instructions
 
@@ -75,6 +76,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Future Plans
 - [ ] Detect unsafe commands (`sudo rm -rf /`) and add fail safe
 - [ ] Support OpenAI/Claude/Gemini/Mistral models through API
+- [ ] Remove llm.js dependency
 
 ## Discussions
 Join our community discussions at [GitHub Discussions](https://github.com/shambu2k/znlp/discussions/) to:
