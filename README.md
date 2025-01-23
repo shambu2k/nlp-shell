@@ -1,5 +1,5 @@
 # znlp
-A powerful Zsh plugin that transforms natural language commands into executable bash commands. Simply describe what you want to do in plain English, and znlp will convert it into the corresponding shell command. Perfect for those moments when you can't remember the exact syntax or want a more intuitive way to interact with your terminal.
+A powerful node app that transforms natural language commands into executable bash commands. Simply describe what you want to do in plain English, and znlp will convert it into the corresponding shell command. Perfect for those moments when you can't remember the exact syntax or want a more intuitive way to interact with your terminal.
 Works fully offline with Ollama!
 
 ![Test Status](https://github.com/shambu2k/znlp/actions/workflows/tests.yml/badge.svg)
@@ -33,25 +33,8 @@ ollama pull qwen2.5-coder:1.5b
 ```
 
 ### Setup
-1. Clone the repository:
 ```bash
-git clone --depth 1 -- https://github.com/shambu2k/znlp.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd znlp
-```
-
-3. Install dependencies:
-```bash
-yarn install
-```
-
-4. Zsh Integration
-Add the plugin to your `.zshrc` by adding below line:
-```bash
-source /path-to-cloned-znlp/src/znlp.plugin.zsh
+npm install -g znlp
 ```
 
 ## Usage
@@ -79,6 +62,7 @@ Link to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Future Plans
+- [x] push to npm
 - [ ] Detect unsafe commands (`sudo rm -rf /`) and add fail safe
 - [ ] Support OpenAI/Claude/Gemini/Mistral models through API
 - [ ] Remove llm.js dependency
