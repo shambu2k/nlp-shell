@@ -1,5 +1,5 @@
 {
-  "name": "nlp-shell",
+  "name": "znlp",
   "keywords": [
     "shell",
     "bash",
@@ -11,14 +11,18 @@
   "type": "module",
   "version": "1.0.0",
   "description": "NLP to commands shell",
-  "main": "index.js",
-  "repository": "git@github.com:shambu2k/nlp-shell.git",
+  "main": "src/index.js",
+  "bin": {
+    "znlp": "./src/index.js"
+  },
+  "repository": "git@github.com:shambu2k/znlp.git",
   "author": "Sidharth Shambu, U Madhu Sudhanan",
   "license": "MIT",
   "devDependencies": {
     "jasmine": "^5.5.0"
   },
   "dependencies": {
-    "@themaximalist/llm.js": "^0.7.1"
+    "@themaximalist/llm.js": "^0.7.1",
+    "commander": "^13.1.0"
   }
 }
