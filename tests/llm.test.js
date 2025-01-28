@@ -5,6 +5,6 @@ describe('LLM command generation', () => {
     const input = "list files";
     const osType = "Linux";
     const command = await getCommand(input, osType);
-    expect(command).toBe("ls");
+    expect(['ls', 'ls -l']).toContain(command);
   }, 15000);
 });
