@@ -9,7 +9,7 @@
     "test": "jasmine --config=jasmine.json"
   },
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NLP to commands shell",
   "main": "src/index.js",
   "bin": {
